@@ -1,0 +1,116 @@
+.node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid skyblue;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.node-finish::before {
+    content: "\25CE";
+    color: purple;
+    top: 0;
+    left: 0;
+    font-size: 1.4em;
+    position: absolute;
+}
+
+.node-start::before {
+    content: "\276F";
+    color: purple;
+    top: 0;
+    left: 8px;
+    font-size: 1.4em;
+    position: absolute;
+}
+
+.node-visited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+    0% {
+        transform: scale(0.3);
+        background-color: grey;
+        border-radius: 100%;
+    }
+
+    50% {
+        background-color: #1ca3e3;
+    }
+
+    75% {
+        transform: scale(1.2);
+        background-color: lightgreen;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #1ca3e3;
+    }
+}
+
+.node-wall {
+    animation-name: wallAnimation;
+    animation-duration: 0s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes wallAnimation {
+    0% {
+        transform: scale(0.2);
+        background-color: #cb4154;
+    }
+
+    50% {
+        transform: scale(1.2);
+        background-color: #cb4154;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #cb4154;
+    }
+}
+
+.node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes shortestPath {
+    0% {
+        transform: scale(0.6);
+        background-color: yellow;
+    }
+
+    50% {
+        transform: scale(1.2);
+        background-color: yellow;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: yellow;
+    }
+}

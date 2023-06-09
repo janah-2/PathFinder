@@ -1,0 +1,243 @@
+#nav {
+    width: 100%;
+    background-color: #1ca3e3;
+}
+
+#nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#nav li a:hover {
+    background-color: black;
+}
+
+#keys {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+#keys li {
+    float: left;
+}
+
+#keys li {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#start-and-end {
+    display: block;
+    margin: 20px 0;
+}
+
+#start-and-end b {
+    margin-right: 20px;
+}
+
+.start {
+    background-image: url(Start.svg);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.target {
+    background-image: url(Target.svg);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.visited {
+    background-image: url(Visited.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.shortest-path {
+    background-image: url(Path.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.wall {
+    background-image: url(Wall.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.grid {
+    margin: 20px 0 0;
+}
+
+.grid-row {
+    height: 25px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: block;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content1, .modal-content2,
+.modal-content3, .modal-content4,
+.modal-content5 {
+    background-color: #fefefe;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 300px;
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeModalButton, .nextModalButton, .previousModalButton {
+    padding: 10px;
+    background-color: #1ca3e3;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nextModalButton {
+    background-color: maroon;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
+.previousModalButton {
+    background-color: darkgreen;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+
+.closeModalButton {
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    bottom: 5%;
+    margin: 0 auto;
+}
+
+.changeStartingButton, .changeEndingButton {
+    padding: 5px;
+    background-color: #1ca3e3;
+    color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.changeStartingInputBox, .changeEndingInputBox {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.change_start_and_end_image {
+    background-image: url("Change\ starting\ and\ ending.png");
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.walls {
+    background-image: url("walls.gif");
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    margin: auto;
+}
+
+.menu {
+    background-image: url("menu.png");
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    margin: auto;
+}
