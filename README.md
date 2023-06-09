@@ -27,7 +27,7 @@ Visualize popular pathfinding algorithms in action. Set start and end points, cr
 
 **Example of PathFinder in action:**
 
-<img src="Project Demo.gif" width="600">
+<img src="Project Demo.gif" width="400">
 
 **Explore the world of pathfinding algorithms and understand their behavior through this visualizer!**
 
