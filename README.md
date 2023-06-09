@@ -25,7 +25,7 @@ Visualize popular pathfinding algorithms in action. Set start and end points, cr
 5. Compare the paths and performance of different algorithms.
 6. Reset the grid to start fresh or modify it for new experiments.
 
-**Example of PathFinder in action:**
+**Example of the PathFinder visualzing Dijkstra's algorithm:**
 
 <img src="Project Demo.gif" width="400">
 
