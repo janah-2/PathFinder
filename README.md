@@ -26,7 +26,7 @@ Visualize popular pathfinding algorithms in action. Set start and end points, cr
 6. Reset the grid to start fresh or modify it for new experiments.
 
 **Example of PathFinder in action:**
-<!-- ![Image Description](path/to/your/image.png) -->
+![Image Description](Project Demo.gif)
 
 **Explore the world of pathfinding algorithms and understand their behavior through this visualizer!**
 
