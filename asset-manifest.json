@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PathFinder/static/css/main.67d5308e.css",
+    "main.js": "/PathFinder/static/js/main.f07d9398.js",
+    "static/js/787.0533f3a1.chunk.js": "/PathFinder/static/js/787.0533f3a1.chunk.js",
+    "static/media/walls.gif": "/PathFinder/static/media/walls.48ab2e0361dce9e6bbee.gif",
+    "static/media/menu.png": "/PathFinder/static/media/menu.c0f62f80449876e99eb4.png",
+    "static/media/Change starting and ending.png": "/PathFinder/static/media/Change starting and ending.8cf8817b05a6d3a11842.png",
+    "static/media/Start.svg": "/PathFinder/static/media/Start.36a5eebf27ec98f10eff.svg",
+    "index.html": "/PathFinder/index.html",
+    "static/media/Target.svg": "/PathFinder/static/media/Target.a4c1db831003c7c0d28c.svg",
+    "main.67d5308e.css.map": "/PathFinder/static/css/main.67d5308e.css.map",
+    "main.f07d9398.js.map": "/PathFinder/static/js/main.f07d9398.js.map",
+    "787.0533f3a1.chunk.js.map": "/PathFinder/static/js/787.0533f3a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67d5308e.css",
+    "static/js/main.f07d9398.js"
+  ]
+}
